@@ -1,4 +1,5 @@
 <?php
+
 session_start();
 
 // Als de user al ingelog is dan wordt hij doorgestuurd naar de index pagina
