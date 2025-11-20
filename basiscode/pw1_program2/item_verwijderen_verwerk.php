@@ -24,7 +24,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
             
             // Controleert of het is gelukt
             if ($stmt->rowCount() > 0) {
-                $resultaat = "Het item is succesvol verwijderd!";
+                $resultaat = "Het item is succesvol verwijderd.";
             } else {
                 $resultaat = "Er is iets fout gegaan bij het verwijderen van het item.";
             }
