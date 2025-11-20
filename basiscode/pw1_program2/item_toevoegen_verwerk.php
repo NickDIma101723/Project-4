@@ -63,7 +63,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 
         // Controleert of het is gelukt
         if ($stmt->rowCount()) {
-            $resultaat =  "{$titel} is toegevoegd!";
+            $resultaat =  "{$titel} is toegevoegd";
         } else {
             $resultaat =  "Er is iets fout gegaan bij het toevoegen van het item.";
         }
