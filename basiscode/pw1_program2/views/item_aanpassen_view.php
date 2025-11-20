@@ -17,18 +17,23 @@
     
     <label for="titel">Titel:</label>
     <input type="text" id="titel" name="titel" value="<?= htmlspecialchars($item['titel']) ?>" required>
+    <br><br>
     
     <label for="type">Type vondst:</label>
     <input type="text" id="type" name="type" value="<?= htmlspecialchars($item['type']) ?>" required>
+    <br><br>
     
     <label for="beschrijving">Beschrijving:</label>
     <textarea id="beschrijving" name="beschrijving" required><?= htmlspecialchars($item['beschrijving']) ?></textarea>
+    <br><br>
     
     <label for="datum">Datum vondst:</label>
     <input type="date" id="datum" name="datum" value="<?= htmlspecialchars($item['gevonden_op']) ?>" required>
+    <br><br>
     
     <label for="url">URL met info:</label>
     <input type="url" id="url" name="url" value="<?= htmlspecialchars($item['bestand_url']) ?>" required>
+    <br><br>
     
     <button type="submit">Item aanpassen</button>
     <a href="index.php"><button type="button">Annuleren</button></a>

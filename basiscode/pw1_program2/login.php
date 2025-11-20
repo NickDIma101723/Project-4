@@ -24,9 +24,11 @@ if (isset($_SESSION['logged_in']) && $_SESSION['logged_in'] === true) {
 <form action="login_verwerk.php" method="POST">
     <label for="username">Gebruikersnaam:</label>
     <input type="text" id="username" name="username" required>
+    <br><br>
     
     <label for="password">Wachtwoord:</label>
     <input type="password" id="password" name="password" required>
+    <br><br>
     
     <button type="submit">Inloggen</button>
 </form>
